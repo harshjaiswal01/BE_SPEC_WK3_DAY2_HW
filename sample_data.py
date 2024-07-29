@@ -8,8 +8,8 @@ from models.role import Role
 
 def add_sample_data():
     # Create sample roles
-    admin_role = Role(role_name="admin")
-    user_role = Role(role_name="user")
+    admin_role = Role(role_name="Admin")
+    user_role = Role(role_name="User")
 
     db.session.add(admin_role)
     db.session.add(user_role)
